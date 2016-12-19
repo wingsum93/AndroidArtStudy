@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <org.tyk.android.artstudy.MyScrollview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorAccent"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"></android.support.v7.widget.RecyclerView>
+
+
+    </org.tyk.android.artstudy.MyScrollview>
+
+
+</LinearLayout>
